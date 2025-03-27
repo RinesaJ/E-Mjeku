@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #fff;
+            padding: 0 10px;
+        }
+        .wrapper {
+            background: #B3E5FC;
+            max-width: 900px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5);
+            color: #333 !important;
+            display: flex;
+            flex-direction: row;
+        }
+        .zona-e-bisedës {
+            flex: 3;
+            padding: 25px 30px;
+        }
+        .lista-e-perdoruesve {
+            flex: 1;
+            padding: 20px;
+            border-left: 1px solid #3d89ac;
+        }
+        .lista-e-perdoruesve h5 {
+            margin-bottom: 20px;
+        }
+        .lista-e-perdoruesve ul {
+            list-style-type: none;
+        }
+        .lista-e-perdoruesve ul li {
+            margin-bottom: 10px;
+        }
+        .lista-e-perdoruesve a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .lista-e-perdoruesve a:hover {
+            text-decoration: underline;
+        }
+        .buton a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        .buton a:hover {
+            text-decoration: underline;
+        }
+        .buton span {
+            float: right;
+            color: black;
+            padding: 10px 10px;
+            background-color: white;
+            border-radius: 30px;
+        }
+        .detaje span {
+            margin-right: 10px;
+        }
+        .kuti-e-bisedës {
+            position: relative;
+            min-height: 380px;
+            max-height: 450px;
+            overflow-y: auto;
+            padding: 10px 30px 20px 30px;
+            background: #3d89ac;
+            box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%), inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
+        }
+        .kuti-e-bisedës .bisedë {
+            margin: 15px 0;
+        }
+        .kuti-e-bisedës .bisedë p {
+            word-wrap: break-word;
+            padding: 8px 16px;
+            box-shadow: 0 0 45px rgb(0 0 0 / 14%), 0rem 25px 25px -25px rgb(0 0 0 / 19%);
+        }
+        .kuti-e-bisedës .dalëse .detaje {
+            margin-left: auto;
+            max-width: calc(100% - 130px);
+        }
+        .dalëse .detaje p {
+            background: #B3E5FC;
+            color: #333;
+            border-radius: 18px 18px 0 18px;
+        }
+        .kuti-e-bisedës .hyrëse {
+            display: flex;
+            align-items: flex-end;
+        }
+        .kuti-e-bisedës .hyrëse .detaje {
+            margin-right: auto;
+            margin-left: 10px;
+            max-width: calc(100% - 130px);
+        }
+        .hyrëse .detaje p {
+            background: #fff;
+            color: #333;
+            border-radius: 18px 18px 18px 0;
+        }
+        .zona-e-shkrimit {
+            padding: 18px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .zona-e-shkrimit input {
+            height: 45px;
+            width: calc(100% - 58px);
+            font-size: 16px;
+            padding: 0 13px;
+            border: 1px solid #e6e6e6;
+            outline: none;
+            border-radius: 5px 0 0 5px;
+        }
+        .zona-e-shkrimit input:focus {
+            border: 1px solid #3d89ac;
+        }
+        .zona-e-shkrimit button {
+            color: #fff;
+            width: 55px;
+            border: none;
+            outline: none;
+            background: #3d89ac;
+            font-size: 19px;
+            cursor: pointer;
+            opacity: 0.7;
+            pointer-events: none;
+            border-radius: 0 5px 5px 0;
+            transition: all 0.3s ease;
+        }
+        .zona-e-shkrimit button:hover {
+            background: #2c5f77;
+        }
+        .zona-e-shkrimit button.aktive {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        @media screen and (max-width: 550px) {
+            .wrapper {
+                flex-direction: column;
+            }
+            .lista-e-perdoruesve {
+                border-left: none;
+                border-top: 1px solid #8a8a8a;
+            }
+        }

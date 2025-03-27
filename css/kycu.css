@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../foto/backg.png) no-repeat;
+    background-size: 1280px 650px;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(37, 139, 187, 0.244);
+    backdrop-filter: blur(20px);
+    color: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(47, 114, 239, 0.278);
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    margin-bottom: 15px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-b {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.input-b input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid #03ACF2;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.input-b input::placeholder {
+    color: #000;
+}
+
+.input-b i {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 16px;
+}
+
+.wrapper .kycu input {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .link-regjistrim {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.link-regjistrim p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-regjistrim p a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.admin-info p {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+.input-b select {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #03ACF2;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    appearance: none; 
+    background-color: #fff; 
+}
+
+.input-b {
+    position: relative;
+}
+
+.input-b::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    width: 0; 
+    height: 0; 
+}
+#llojiperdoresit::after {
+    content: '';
+    position: absolute;
+    right: 15px; 
+    top: 50%;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid #03ACF2; 
+}

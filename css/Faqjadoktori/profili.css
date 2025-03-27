@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+.wrapper{
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.logo {
+    padding-left: 15px;
+}
+
+.nav-container {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.nav-menu.active {
+    display: flex; /* Show the menu when active */
+}
+
+.nav-menu{
+    float: right;
+    margin-top: 13px;
+}
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    flex-grow: 1;
+}
+.btnd{
+    border: 1px solid #B3E5FC;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+.btnd:hover {
+    background-color: #B3E5FC;
+    border-radius: 10px;
+    
+}
+ul li {
+    margin-left: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #B3E5FC;
+    border-radius: 10px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1001; 
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; 
+    }
+
+ 
+    .nav-menu.active {
+        display: flex;
+    }
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        margin: 0;
+        width: 100%;
+    }
+
+    ul li a {
+        display: block;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+        border-top: 1px solid #ddd;
+        font-size: 18px;
+    }
+}
+
+.profile-container {
+    margin-top: 15px;
+    margin-left: 300px;
+    background-color: #fff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+  }
+  label{
+    color: rgb(118, 114, 114);
+    float: left;
+  }
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea.input-field {
+    height: 30px;
+    resize: none;
+  }
+  
+  .social-media {
+    margin: 20px 0;
+  }
+  
+  .social-box {
+    display: wrap;
+    width: 46%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+.social-media i{
+    margin-right: 4px;
+}
+  
+  .submit-btn {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 82%;
+  }
+  .submit-btn i{
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    .profile-container {
+        margin: 15px auto; 
+        width: 90%; 
+        padding: 15px;
+
+    }
+
+    .profile-image img {
+        width: 120px; 
+        height: 150px;
+    }
+
+    label {
+        float: none; 
+        text-align: left;
+        display: block; 
+        margin-bottom: 5px;
+    }
+
+    .submit-btn {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-container {
+        margin: 10px auto;
+        width: 95%; 
+        padding: 10px;
+    }
+
+    .profile-image img {
+        width: 100px; 
+        height: 130px;
+    }
+
+    .input-field {
+        padding: 8px;
+        font-size: 14px; 
+    }
+
+    .submit-btn {
+        font-size: 14px; 
+        padding: 8px 15px; 
+    }
+    
+    .social-box {
+        width: 100%; 
+        margin: 5px 0; 
+    }
+}
