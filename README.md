@@ -27,9 +27,16 @@ Before you begin, ensure that you have the following installed on your system:
 - **User-friendly Dashboard**: Easy navigation for patients and doctors.
 
 ## Screenshots
-![E-Mjeku Home](path/to/homepage-screenshot.png)
-![Doctor Profile](path/to/doctor-profile-screenshot.png)
-
+![E-Mjeku](https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/198.png)
+![Doctor Menu]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/Screenshot%202025-03-27%20at%209.11.08%20PM.png])
+![Home Page]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/ballina.png])
+![Admin Page]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/admin1.png])
+![Chat-Doctor with User] ([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/chati_doktori.png])
+![Chat-User with Doctor]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/chati-perdorues.png])
+![LogIn]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/kycu.png])
+![List of users who have contacted the doctor via chat.]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/lista%20.png])
+![Admin Contact Page: This page displays all messages sent by users. The admin can reply directly by clicking a button, which redirects the response to the user's email]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/mesazhet.png])
+[Doctor Registration]([https://github.com/RinesaJ/E-Mjeku/blob/c4b93b9eb73a2af0bf17ff799605c0c017b8fcd4/regjistrohu2.png])
 
 ## Installation
 1. Clone the repository:
